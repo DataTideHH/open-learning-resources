@@ -47,6 +47,22 @@ My own short notes, folder structure and metadata in this repository are provide
 - Text license: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 - Code license: MIT License
 
+### Database Design – 2nd Edition
+
+- Authors: Adrienne Watt and Nelson Eng
+- Publisher / original source: BCcampus / B.C. Open Collection
+- Official source: https://opentextbc.ca/dbdesign01/
+- Official PDF download: https://opentextbc.ca/dbdesign01/open/download?type=pdf
+- License: Creative Commons Attribution 4.0 International
+
+### PostgreSQL 18 Documentation
+
+- Publisher / original source: PostgreSQL Global Development Group
+- Official documentation page: https://www.postgresql.org/docs/
+- Official online manual: https://www.postgresql.org/docs/18/index.html
+- Official PDF download: https://www.postgresql.org/files/documentation/pdf/18/postgresql-18-A4.pdf
+- License: PostgreSQL License
+
 ### The Linux Command Line
 
 - Author: William Shotts
@@ -63,6 +79,21 @@ My own short notes, folder structure and metadata in this repository are provide
 - License: Creative Commons Attribution License
 
 ## Link-only third-party references
+
+### Microsoft SQL and T-SQL Documentation
+
+- Publisher / original source: Microsoft Learn / MicrosoftDocs
+- Official Microsoft SQL documentation: https://learn.microsoft.com/en-us/sql/
+- Official T-SQL reference: https://learn.microsoft.com/en-us/sql/t-sql/language-reference
+- Official source repository: https://github.com/MicrosoftDocs/sql-docs
+- Local copy included: No
+
+### MariaDB Server Documentation
+
+- Publisher / original source: MariaDB
+- Official MariaDB Server documentation: https://mariadb.com/docs/server
+- MariaDB Community Server FAQ: https://mariadb.com/docs/general-resources/community/community/faq/mariadb-community-server
+- Local copy included: No
 
 ### C++ Core Guidelines
 
