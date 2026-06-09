@@ -26,3 +26,10 @@ My own short notes, folder structure and metadata in this repository are provide
 - Official source: https://docs.python.org/3/
 - License: Python Software Foundation License Version 2
 - Additional code license: Zero Clause BSD License for examples, recipes and other code in the documentation
+
+### The Linux Command Line
+
+- Author: William Shotts
+- Official source: https://linuxcommand.org/tlcl.php
+- Official download host: https://sourceforge.net/projects/linuxcommand/files/TLCL/25.12/TLCL-25.12.pdf/download
+- License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported
