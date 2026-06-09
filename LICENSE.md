@@ -95,6 +95,41 @@ My own short notes, folder structure and metadata in this repository are provide
 - MariaDB Community Server FAQ: https://mariadb.com/docs/general-resources/community/community/faq/mariadb-community-server
 - Local copy included: No
 
+### Computer Networking: Principles, Protocols and Practice
+
+- Author: Olivier Bonaventure
+- Official online version: https://www.computer-networking.info/
+- Official source repository: https://github.com/cnp3/ebook
+- License: Creative Commons Attribution-ShareAlike 3.0 Unported
+- Local copy included: No
+
+### Cisco Catalyst 2950 IOS 12.1EA Reference
+
+- Publisher / original source: Cisco
+- Official command reference: https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst2950/software/release/12-1_22_ea11x/command/reference/title.html
+- Local copy included: No
+
+### Cisco Catalyst 3560-CX IOS 15.2E Reference
+
+- Publisher / original source: Cisco
+- Official configuration guide: https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst2960cx_3650cx/software/release/15-2_7_e/configuration_guide/b_1527e_consolidated_3560cx_2960cx_cg.html
+- Official release notes page: https://www.cisco.com/c/en/us/support/switches/catalyst-3560-cx-series-switches/products-release-notes-list.html
+- Local copy included: No
+
+### Cisco Networking Academy and Packet Tracer
+
+- Publisher / original source: Cisco
+- Official Cisco Networking Academy: https://www.netacad.com/
+- Official Packet Tracer page: https://www.netacad.com/cisco-packet-tracer
+- Local copy included: No
+
+### Core Internet Standards and RFC Editor
+
+- Publisher / original source: RFC Editor
+- Official RFC Editor site: https://www.rfc-editor.org/
+- Official RFC Index: https://www.rfc-editor.org/rfc-index.html
+- Local copy included: No
+
 ### C++ Core Guidelines
 
 - Editors: Bjarne Stroustrup and Herb Sutter
