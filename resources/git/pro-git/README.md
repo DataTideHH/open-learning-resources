@@ -8,6 +8,13 @@ Version of included PDF: 2.1.450, 2026-05-25
 Official source: https://git-scm.com/book/en/v2  
 License: Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported
 
+## Download
+
+- [Download the local PDF copy](https://github.com/DataTideHH/open-learning-resources/raw/main/resources/git/pro-git/progit.pdf)
+- [Read the official online version](https://git-scm.com/book/en/v2)
+
+Note: GitHub's in-browser PDF preview may fail for larger PDF files. Use the download link above if the preview does not render.
+
 ## Included file
 
 - `progit.pdf`
