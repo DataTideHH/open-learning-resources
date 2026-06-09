@@ -116,6 +116,17 @@ My own short notes, folder structure and metadata in this repository are provide
 - Main Dev.java site: https://dev.java/
 - Local copy included: No
 
+### Docker Documentation
+
+- Publisher / original source: Docker
+- Official documentation: https://docs.docker.com/
+- Official source repository: https://github.com/docker/docs
+- Docker Engine documentation: https://docs.docker.com/engine/
+- Docker Compose documentation: https://docs.docker.com/compose/
+- Docker Desktop license agreement: https://docs.docker.com/subscription/desktop-license/
+- Documentation source license: Apache License 2.0
+- Local copy included: No
+
 ### Computer Networking: Principles, Protocols and Practice
 
 - Author: Olivier Bonaventure

@@ -1,6 +1,6 @@
 # Open Learning Resources
 
-Curated learning resources for software development, data analysis, databases, Java, Linux, Git, networking, C++ and related IT topics.
+Curated learning resources for software development, data analysis, databases, Java, Linux, containers, Git, networking, C++ and related IT topics.
 
 This repository contains:
 
@@ -34,6 +34,7 @@ There is no single repository-wide license for all included materials.
 | Java | [JDK 25 Documentation](resources/java/jdk-25-documentation/) | Link/reference | No | https://docs.oracle.com/en/java/javase/25/ | See official Oracle documentation | Java 25 / current LTS |
 | Java | [Dev.java – Learn Java](resources/java/dev-java-learn-java/) | Link/reference | No | https://dev.java/learn/ | See official Dev.java site | Dynamic learning resource |
 | Linux | [The Linux Command Line](resources/linux/the-linux-command-line/) | PDF | Yes | https://linuxcommand.org/tlcl.php | CC BY-NC-ND 3.0 | Seventh Internet Edition / TLCL-25.12 |
+| Containers / Dev Environments | [Docker Documentation](resources/containers/docker-documentation/) | Link/reference | No | https://docs.docker.com/ | See official Docker documentation | Dynamic documentation |
 | Networking | [Computer Networking: Principles, Protocols and Practice](resources/networking/computer-networking-principles-protocols-practice/) | Link/reference | No | https://www.computer-networking.info/ | CC BY-SA 3.0 | Third Edition |
 | Networking | [Cisco Catalyst 2950 IOS 12.1EA Reference](resources/networking/cisco-catalyst-2950-ios-12-1ea-reference/) | Link/reference | No | https://www.cisco.com/ | See official Cisco documentation | Legacy lab reference |
 | Networking | [Cisco Catalyst 3560-CX IOS 15.2E Reference](resources/networking/cisco-catalyst-3560cx-ios-15-2e-reference/) | Link/reference | No | https://www.cisco.com/ | See official Cisco documentation | Main Cisco lab reference |
@@ -141,6 +142,18 @@ There is no single repository-wide license for all included materials.
   - Official source: https://linuxcommand.org/tlcl.php
   - Official download host: https://sourceforge.net/projects/linuxcommand/files/TLCL/25.12/TLCL-25.12.pdf/download
   - Local PDF included as a non-commercial learning resource in its original form
+
+
+### Containers and Dev Environments
+
+- [Docker Documentation](resources/containers/docker-documentation/)
+  - Publisher / original source: Docker
+  - Official documentation: https://docs.docker.com/
+  - Docker Engine: https://docs.docker.com/engine/
+  - Docker Compose: https://docs.docker.com/compose/
+  - Dockerfile and Compose file references included as official links
+  - Docker Desktop license agreement linked for professional usage context
+  - Link-only reference entry; no local copy included
 
 ### Networking
 
