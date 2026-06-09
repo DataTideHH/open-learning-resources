@@ -53,3 +53,22 @@ My own short notes, folder structure and metadata in this repository are provide
 - Official source repository: https://github.com/AllenDowney/ThinkStats
 - Text license: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 - Code license: MIT License
+
+### Open Data Structures in C++
+
+- Author: Pat Morin
+- Official source: https://opendatastructures.org/
+- Official PDF: https://opendatastructures.org/ods-cpp.pdf
+- Official source repository: https://github.com/patmorin/ods
+- License: Creative Commons Attribution License
+
+## Link-only third-party references
+
+### C++ Core Guidelines
+
+- Editors: Bjarne Stroustrup and Herb Sutter
+- Maintainer / original source: Standard C++ Foundation / isocpp
+- Official browsable version: https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
+- Official source repository: https://github.com/isocpp/CppCoreGuidelines
+- License: See official project license
+- Local copy included: No

@@ -1,3 +1,4 @@
+3fbbe5febd0e84f79c509cca28a0be93deef0ab045999b5efc78af9e913088f4  resources/cpp/open-data-structures-cpp/open-data-structures-cpp-edition-0.1G-beta.pdf
 403f4051cdca2c585361d85f6e87d5dd87d8c544fc91dced007711babe81e8ef  resources/git/pro-git/progit.pdf
 be4e1c2cc1a9ded8a80dcca0c839587ecb6f96ba1883a9fd9137a95a8eab06cf  resources/linux/the-linux-command-line/TLCL-25.12.pdf
 858f48b25910cfb8cd4bf978f3e5d0a36f9664044a7f5dcdba44b977f775b3d8  resources/python/python-docs/python-3.14-docs.epub

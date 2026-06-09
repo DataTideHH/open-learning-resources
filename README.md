@@ -1,11 +1,12 @@
 # Open Learning Resources
 
-Curated learning resources for software development, data analysis, databases, Linux, Git, networking and related IT topics.
+Curated learning resources for software development, data analysis, databases, Linux, Git, C++, networking and related IT topics.
 
 This repository contains:
 
 - links to freely available learning materials
 - local copies of selected materials only when redistribution is explicitly permitted
+- link-only reference entries for living documents or resources that should not be mirrored locally
 - license and attribution notes for each included third-party resource
 - checksums for included local files
 
@@ -26,6 +27,8 @@ There is no single repository-wide license for all included materials.
 | Python | [Think Python, 3rd Edition](resources/python/think-python-3e/) | Notebook ZIP | Yes | https://greenteapress.com/wp/think-python-3rd-edition/ | Text: CC BY-NC-SA 4.0 / Code: MIT | 3rd Edition / v3 snapshot |
 | Linux | [The Linux Command Line](resources/linux/the-linux-command-line/) | PDF | Yes | https://linuxcommand.org/tlcl.php | CC BY-NC-ND 3.0 | Seventh Internet Edition / TLCL-25.12 |
 | Statistics | [Think Stats, 3rd Edition](resources/statistics/think-stats-3e/) | Notebook ZIP | Yes | https://greenteapress.com/wp/think-stats-3e/ | Text: CC BY-NC-SA 4.0 / Code: MIT | 3rd Edition / v3 snapshot |
+| C++ | [Open Data Structures in C++](resources/cpp/open-data-structures-cpp/) | PDF | Yes | https://opendatastructures.org/ | Creative Commons Attribution License | Edition 0.1Gβ |
+| C++ | [C++ Core Guidelines](resources/cpp/cpp-core-guidelines/) | Link/reference | No | https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines | See official project license | Living document |
 
 ## Resources
 
@@ -79,6 +82,24 @@ Coming later.
   - Official online version: https://allendowney.github.io/ThinkStats/
   - Official source repository: https://github.com/AllenDowney/ThinkStats
   - Local notebook ZIP included as a non-commercial learning resource
+
+### C++
+
+- [Open Data Structures in C++](resources/cpp/open-data-structures-cpp/)
+  - Author: Pat Morin
+  - Edition: 0.1Gβ
+  - License: Creative Commons Attribution License
+  - Official source: https://opendatastructures.org/
+  - Official PDF: https://opendatastructures.org/ods-cpp.pdf
+  - Official source repository: https://github.com/patmorin/ods
+  - Local PDF included as a freely redistributable learning resource with attribution
+
+- [C++ Core Guidelines](resources/cpp/cpp-core-guidelines/)
+  - Editors: Bjarne Stroustrup and Herb Sutter
+  - Maintainer / original source: Standard C++ Foundation / isocpp
+  - Official browsable version: https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
+  - Official source repository: https://github.com/isocpp/CppCoreGuidelines
+  - Link-only reference entry; no local copy included
 
 ### Networking
 
