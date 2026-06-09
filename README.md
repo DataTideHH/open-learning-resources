@@ -1,6 +1,6 @@
 # Open Learning Resources
 
-Curated learning resources for software development, data analysis, databases, Linux, Git, networking, C++ and related IT topics.
+Curated learning resources for software development, data analysis, databases, Java, Linux, Git, networking, C++ and related IT topics.
 
 This repository contains:
 
@@ -30,6 +30,9 @@ There is no single repository-wide license for all included materials.
 | SQL and Databases | [PostgreSQL 18 Documentation](resources/sql-and-databases/postgresql-18-documentation/) | PDF | Yes | https://www.postgresql.org/docs/ | PostgreSQL License | 18.4 stable release line |
 | SQL and Databases | [Microsoft SQL and T-SQL Documentation](resources/sql-and-databases/microsoft-sql-t-sql-documentation/) | Link/reference | No | https://learn.microsoft.com/en-us/sql/ | See official source repository | Dynamic documentation |
 | SQL and Databases | [MariaDB Server Documentation](resources/sql-and-databases/mariadb-documentation/) | Link/reference | No | https://mariadb.com/docs/server | See official site | Dynamic documentation |
+| Java | [JDK 21 Documentation](resources/java/jdk-21-documentation/) | Link/reference | No | https://docs.oracle.com/en/java/javase/21/ | See official Oracle documentation | Java 21 / previous LTS |
+| Java | [JDK 25 Documentation](resources/java/jdk-25-documentation/) | Link/reference | No | https://docs.oracle.com/en/java/javase/25/ | See official Oracle documentation | Java 25 / current LTS |
+| Java | [Dev.java – Learn Java](resources/java/dev-java-learn-java/) | Link/reference | No | https://dev.java/learn/ | See official Dev.java site | Dynamic learning resource |
 | Linux | [The Linux Command Line](resources/linux/the-linux-command-line/) | PDF | Yes | https://linuxcommand.org/tlcl.php | CC BY-NC-ND 3.0 | Seventh Internet Edition / TLCL-25.12 |
 | Networking | [Computer Networking: Principles, Protocols and Practice](resources/networking/computer-networking-principles-protocols-practice/) | Link/reference | No | https://www.computer-networking.info/ | CC BY-SA 3.0 | Third Edition |
 | Networking | [Cisco Catalyst 2950 IOS 12.1EA Reference](resources/networking/cisco-catalyst-2950-ios-12-1ea-reference/) | Link/reference | No | https://www.cisco.com/ | See official Cisco documentation | Legacy lab reference |
@@ -105,6 +108,28 @@ There is no single repository-wide license for all included materials.
   - Publisher / original source: MariaDB
   - Official MariaDB Server documentation: https://mariadb.com/docs/server
   - MariaDB Community Server FAQ: https://mariadb.com/docs/general-resources/community/community/faq/mariadb-community-server
+  - Link-only reference entry; no local copy included
+
+### Java
+
+- [JDK 21 Documentation](resources/java/jdk-21-documentation/)
+  - Publisher / original source: Oracle
+  - Java release context: Java 21 / previous LTS line
+  - Official documentation: https://docs.oracle.com/en/java/javase/21/
+  - Official API documentation: https://docs.oracle.com/en/java/javase/21/docs/api/index.html
+  - Link-only reference entry; no local copy included
+
+- [JDK 25 Documentation](resources/java/jdk-25-documentation/)
+  - Publisher / original source: Oracle
+  - Java release context: Java 25 / current LTS line
+  - Official documentation: https://docs.oracle.com/en/java/javase/25/
+  - Official API documentation: https://docs.oracle.com/en/java/javase/25/docs/api/index.html
+  - Link-only reference entry; no local copy included
+
+- [Dev.java – Learn Java](resources/java/dev-java-learn-java/)
+  - Publisher / original source: Oracle / Java community site
+  - Official learning page: https://dev.java/learn/
+  - Main Dev.java site: https://dev.java/
   - Link-only reference entry; no local copy included
 
 ### Linux

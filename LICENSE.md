@@ -95,6 +95,27 @@ My own short notes, folder structure and metadata in this repository are provide
 - MariaDB Community Server FAQ: https://mariadb.com/docs/general-resources/community/community/faq/mariadb-community-server
 - Local copy included: No
 
+### JDK 21 Documentation
+
+- Publisher / original source: Oracle
+- Official documentation: https://docs.oracle.com/en/java/javase/21/
+- Official API documentation: https://docs.oracle.com/en/java/javase/21/docs/api/index.html
+- Local copy included: No
+
+### JDK 25 Documentation
+
+- Publisher / original source: Oracle
+- Official documentation: https://docs.oracle.com/en/java/javase/25/
+- Official API documentation: https://docs.oracle.com/en/java/javase/25/docs/api/index.html
+- Local copy included: No
+
+### Dev.java – Learn Java
+
+- Publisher / original source: Oracle / Java community site
+- Official learning page: https://dev.java/learn/
+- Main Dev.java site: https://dev.java/
+- Local copy included: No
+
 ### Computer Networking: Principles, Protocols and Practice
 
 - Author: Olivier Bonaventure
