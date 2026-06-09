@@ -7,12 +7,22 @@ This repository contains:
 - links to freely available learning materials
 - local copies of selected materials only when redistribution is explicitly permitted
 - license and attribution notes for each included third-party resource
+- checksums for included local files
 
 ## Important license note
 
 "Freely available" does not automatically mean "freely redistributable".
 
 Each third-party resource keeps its original license. Nothing in this repository should be understood as relicensing third-party books, PDFs, documentation or other materials.
+
+There is no single repository-wide license for all included materials.
+
+## Resource overview
+
+| Area | Resource | Format | Local copy | Official source | License | Version / Date |
+|---|---|---:|---:|---|---|---|
+| Git | [Pro Git, Second Edition](resources/git/pro-git/) | PDF | Yes | https://git-scm.com/book/en/v2 | CC BY-NC-SA 3.0 | 2.1.450 / 2026-05-25 |
+| Python | [Official Python 3 Documentation EPUB](resources/python/python-docs/) | EPUB | Yes | https://docs.python.org/3/ | Python Software Foundation License Version 2 | 3.14.5 / 2026-06-09 |
 
 ## Resources
 
@@ -44,6 +54,12 @@ Coming later.
 ### Networking
 
 Coming later.
+
+## Checksums
+
+SHA-256 checksums for included local files are available here:
+
+- [SHA256SUMS.txt](checksums/SHA256SUMS.txt)
 
 ## Repository purpose
 

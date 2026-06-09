@@ -1,0 +1,2 @@
+403f4051cdca2c585361d85f6e87d5dd87d8c544fc91dced007711babe81e8ef  resources/git/pro-git/progit.pdf
+858f48b25910cfb8cd4bf978f3e5d0a36f9664044a7f5dcdba44b977f775b3d8  resources/python/python-docs/python-3.14-docs.epub

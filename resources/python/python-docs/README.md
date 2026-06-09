@@ -40,7 +40,7 @@ The official Python Tutorial is especially useful for learning and reviewing:
 
 This documentation is not my work.
 
-It is included here as an official Python documentation archive for non-commercial learning and reference purposes. The original license terms remain unchanged.
+It is included here as an official offline documentation archive for learning and reference purposes. The original license terms remain unchanged.
 
 Official source:
 
