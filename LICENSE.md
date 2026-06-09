@@ -27,9 +27,29 @@ My own short notes, folder structure and metadata in this repository are provide
 - License: Python Software Foundation License Version 2
 - Additional code license: Zero Clause BSD License for examples, recipes and other code in the documentation
 
+### Think Python, 3rd Edition
+
+- Author: Allen B. Downey
+- Publisher / original book page: Green Tea Press
+- Official source: https://greenteapress.com/wp/think-python-3rd-edition/
+- Official online version: https://allendowney.github.io/ThinkPython/
+- Official source repository: https://github.com/AllenDowney/ThinkPython
+- Text license: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+- Code license: MIT License
+
 ### The Linux Command Line
 
 - Author: William Shotts
 - Official source: https://linuxcommand.org/tlcl.php
 - Official download host: https://sourceforge.net/projects/linuxcommand/files/TLCL/25.12/TLCL-25.12.pdf/download
 - License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported
+
+### Think Stats, 3rd Edition
+
+- Author: Allen B. Downey
+- Publisher / original book page: Green Tea Press
+- Official source: https://greenteapress.com/wp/think-stats-3e/
+- Official online version: https://allendowney.github.io/ThinkStats/
+- Official source repository: https://github.com/AllenDowney/ThinkStats
+- Text license: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+- Code license: MIT License

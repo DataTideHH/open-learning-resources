@@ -1,3 +1,5 @@
 403f4051cdca2c585361d85f6e87d5dd87d8c544fc91dced007711babe81e8ef  resources/git/pro-git/progit.pdf
 be4e1c2cc1a9ded8a80dcca0c839587ecb6f96ba1883a9fd9137a95a8eab06cf  resources/linux/the-linux-command-line/TLCL-25.12.pdf
 858f48b25910cfb8cd4bf978f3e5d0a36f9664044a7f5dcdba44b977f775b3d8  resources/python/python-docs/python-3.14-docs.epub
+0ed19fab35db9a8fb1bfa9ce4461267cbaeb0b000a4264c6c0c61676d4a5a6e4  resources/python/think-python-3e/ThinkPython3Notebooks-19cb35f68cf4.zip
+373ebb6e0a7459b6e9a7d6d971b20076a75c2c0316d322c685a79e852d7110e9  resources/statistics/think-stats-3e/ThinkStats-b79c4cc8eab2.zip
