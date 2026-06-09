@@ -26,7 +26,12 @@ Each third-party resource keeps its original license. Nothing in this repository
 
 ### Python
 
-Coming later.
+- [Official Python 3 Documentation EPUB](resources/python/python-docs/)
+  - Publisher: Python Software Foundation
+  - License: Python Software Foundation License Version 2
+  - Official tutorial: https://docs.python.org/3/tutorial/
+  - Official documentation downloads: https://docs.python.org/3/download.html
+  - Local EPUB included as an official offline documentation archive
 
 ### SQL and Databases
 
