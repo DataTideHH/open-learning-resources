@@ -37,13 +37,6 @@ My own short notes, folder structure and metadata in this repository are provide
 - Text license: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 - Code license: MIT License
 
-### The Linux Command Line
-
-- Author: William Shotts
-- Official source: https://linuxcommand.org/tlcl.php
-- Official download host: https://sourceforge.net/projects/linuxcommand/files/TLCL/25.12/TLCL-25.12.pdf/download
-- License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported
-
 ### Think Stats, 3rd Edition
 
 - Author: Allen B. Downey
@@ -53,6 +46,13 @@ My own short notes, folder structure and metadata in this repository are provide
 - Official source repository: https://github.com/AllenDowney/ThinkStats
 - Text license: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 - Code license: MIT License
+
+### The Linux Command Line
+
+- Author: William Shotts
+- Official source: https://linuxcommand.org/tlcl.php
+- Official download host: https://sourceforge.net/projects/linuxcommand/files/TLCL/25.12/TLCL-25.12.pdf/download
+- License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported
 
 ### Open Data Structures in C++
 

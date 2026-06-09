@@ -23,6 +23,7 @@ A resource should only be linked, not uploaded, when:
 - the file is very large
 - the official online version is clearly preferable
 - the material changes frequently and a local copy would become outdated quickly
+- the resource is a living document without a stable release version
 
 ## Versioning
 

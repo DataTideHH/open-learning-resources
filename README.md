@@ -25,8 +25,8 @@ There is no single repository-wide license for all included materials.
 | Git | [Pro Git, Second Edition](resources/git/pro-git/) | PDF | Yes | https://git-scm.com/book/en/v2 | CC BY-NC-SA 3.0 | 2.1.450 / 2026-05-25 |
 | Python | [Official Python 3 Documentation EPUB](resources/python/python-docs/) | EPUB | Yes | https://docs.python.org/3/ | Python Software Foundation License Version 2 | 3.14.5 / 2026-06-09 |
 | Python | [Think Python, 3rd Edition](resources/python/think-python-3e/) | Notebook ZIP | Yes | https://greenteapress.com/wp/think-python-3rd-edition/ | Text: CC BY-NC-SA 4.0 / Code: MIT | 3rd Edition / v3 snapshot |
+| Statistics / Data Analysis | [Think Stats, 3rd Edition](resources/statistics/think-stats-3e/) | Notebook ZIP | Yes | https://greenteapress.com/wp/think-stats-3e/ | Text: CC BY-NC-SA 4.0 / Code: MIT | 3rd Edition / v3 snapshot |
 | Linux | [The Linux Command Line](resources/linux/the-linux-command-line/) | PDF | Yes | https://linuxcommand.org/tlcl.php | CC BY-NC-ND 3.0 | Seventh Internet Edition / TLCL-25.12 |
-| Statistics | [Think Stats, 3rd Edition](resources/statistics/think-stats-3e/) | Notebook ZIP | Yes | https://greenteapress.com/wp/think-stats-3e/ | Text: CC BY-NC-SA 4.0 / Code: MIT | 3rd Edition / v3 snapshot |
 | C++ | [Open Data Structures in C++](resources/cpp/open-data-structures-cpp/) | PDF | Yes | https://opendatastructures.org/ | Creative Commons Attribution License | Edition 0.1Gβ |
 | C++ | [C++ Core Guidelines](resources/cpp/cpp-core-guidelines/) | Link/reference | No | https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines | See official project license | Living document |
 
@@ -58,6 +58,17 @@ There is no single repository-wide license for all included materials.
   - Official source repository: https://github.com/AllenDowney/ThinkPython
   - Local notebook ZIP included as a non-commercial learning resource
 
+### Statistics and Data Analysis
+
+- [Think Stats, 3rd Edition](resources/statistics/think-stats-3e/)
+  - Author: Allen B. Downey
+  - Publisher / original book page: Green Tea Press
+  - License: Text under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International; code under MIT License
+  - Official source: https://greenteapress.com/wp/think-stats-3e/
+  - Official online version: https://allendowney.github.io/ThinkStats/
+  - Official source repository: https://github.com/AllenDowney/ThinkStats
+  - Local notebook ZIP included as a non-commercial learning resource
+
 ### SQL and Databases
 
 Coming later.
@@ -71,17 +82,6 @@ Coming later.
   - Official source: https://linuxcommand.org/tlcl.php
   - Official download host: https://sourceforge.net/projects/linuxcommand/files/TLCL/25.12/TLCL-25.12.pdf/download
   - Local PDF included as a non-commercial learning resource in its original form
-
-### Statistics
-
-- [Think Stats, 3rd Edition](resources/statistics/think-stats-3e/)
-  - Author: Allen B. Downey
-  - Publisher / original book page: Green Tea Press
-  - License: Text under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International; code under MIT License
-  - Official source: https://greenteapress.com/wp/think-stats-3e/
-  - Official online version: https://allendowney.github.io/ThinkStats/
-  - Official source repository: https://github.com/AllenDowney/ThinkStats
-  - Local notebook ZIP included as a non-commercial learning resource
 
 ### C++
 
