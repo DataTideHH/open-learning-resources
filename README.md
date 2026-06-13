@@ -288,6 +288,6 @@ SHA-256 checksums for included local files are available here:
 
 ## Repository purpose
 
-This repository is part of my learning and portfolio documentation around software development, data analysis, IT systems and process analysis.
+This repository documents curated learning resources for software development, data analysis, IT systems and process analysis.
 
 It is not a commercial download mirror.
