@@ -1,6 +1,6 @@
 # Open Learning Resources
 
-Curated learning resources for software development, data analysis, databases, Java, Linux, containers, Git, networking, C++ and related IT topics.
+Curated learning resources for software development, data analysis, Microsoft Data Stack, business intelligence, databases, Java, Linux, containers, Git, networking, C++ and related IT topics.
 
 This repository contains:
 
@@ -30,6 +30,11 @@ There is no single repository-wide license for all included materials.
 | SQL and Databases | [PostgreSQL 18 Documentation](resources/sql-and-databases/postgresql-18-documentation/) | PDF | Yes | https://www.postgresql.org/docs/ | PostgreSQL License | 18.4 stable release line |
 | SQL and Databases | [Microsoft SQL and T-SQL Documentation](resources/sql-and-databases/microsoft-sql-t-sql-documentation/) | Link/reference | No | https://learn.microsoft.com/en-us/sql/ | See official source repository | Dynamic documentation |
 | SQL and Databases | [MariaDB Server Documentation](resources/sql-and-databases/mariadb-documentation/) | Link/reference | No | https://mariadb.com/docs/server | See official site | Dynamic documentation |
+| Microsoft Data Stack / BI | [Microsoft Fabric Documentation](resources/microsoft/fabric-documentation/) | Link/reference | No | https://learn.microsoft.com/en-us/fabric/ | See official Microsoft Learn documentation | Dynamic documentation |
+| Microsoft Data Stack / BI | [Power BI Documentation](resources/microsoft/power-bi-documentation/) | Link/reference | No | https://learn.microsoft.com/en-us/power-bi/ | See official Microsoft Learn documentation | Dynamic documentation |
+| Microsoft Data Stack / BI | [Power Query Documentation](resources/microsoft/power-query-documentation/) | Link/reference | No | https://learn.microsoft.com/en-us/power-query/ | See official Microsoft Learn documentation | Dynamic documentation |
+| Microsoft Data Stack / BI | [Power BI Star Schema Guidance](resources/microsoft/power-bi-star-schema-guidance/) | Link/reference | No | https://learn.microsoft.com/en-us/power-bi/guidance/star-schema | See official Microsoft Learn documentation | Dynamic guidance |
+| Microsoft Data Stack / BI | [Azure Fundamentals / AZ-900](resources/microsoft/azure-fundamentals/) | Link/reference | No | https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/ | See official Microsoft Learn / Credentials page | Dynamic certification page |
 | Java | [JDK 21 Documentation](resources/java/jdk-21-documentation/) | Link/reference | No | https://docs.oracle.com/en/java/javase/21/ | See official Oracle documentation | Java 21 / previous LTS |
 | Java | [JDK 25 Documentation](resources/java/jdk-25-documentation/) | Link/reference | No | https://docs.oracle.com/en/java/javase/25/ | See official Oracle documentation | Java 25 / current LTS |
 | Java | [Dev.java – Learn Java](resources/java/dev-java-learn-java/) | Link/reference | No | https://dev.java/learn/ | See official Dev.java site | Dynamic learning resource |
@@ -109,6 +114,35 @@ There is no single repository-wide license for all included materials.
   - Publisher / original source: MariaDB
   - Official MariaDB Server documentation: https://mariadb.com/docs/server
   - MariaDB Community Server FAQ: https://mariadb.com/docs/general-resources/community/community/faq/mariadb-community-server
+  - Link-only reference entry; no local copy included
+
+### Microsoft Data Stack and BI
+
+- [Microsoft Fabric Documentation](resources/microsoft/fabric-documentation/)
+  - Publisher / original source: Microsoft Learn / Microsoft
+  - Official Microsoft Fabric documentation: https://learn.microsoft.com/en-us/fabric/
+  - Microsoft Fabric overview: https://learn.microsoft.com/en-us/fabric/fundamentals/microsoft-fabric-overview
+  - Link-only reference entry; no local copy included
+
+- [Power BI Documentation](resources/microsoft/power-bi-documentation/)
+  - Publisher / original source: Microsoft Learn / Microsoft
+  - Official Power BI documentation: https://learn.microsoft.com/en-us/power-bi/
+  - Power BI overview: https://learn.microsoft.com/en-us/power-bi/fundamentals/power-bi-overview
+  - Link-only reference entry; no local copy included
+
+- [Power Query Documentation](resources/microsoft/power-query-documentation/)
+  - Publisher / original source: Microsoft Learn / Microsoft
+  - Official Power Query documentation: https://learn.microsoft.com/en-us/power-query/
+  - Link-only reference entry; no local copy included
+
+- [Power BI Star Schema Guidance](resources/microsoft/power-bi-star-schema-guidance/)
+  - Publisher / original source: Microsoft Learn / Microsoft
+  - Official guidance: https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
+  - Link-only reference entry; no local copy included
+
+- [Azure Fundamentals / AZ-900](resources/microsoft/azure-fundamentals/)
+  - Publisher / original source: Microsoft Learn / Microsoft Credentials
+  - Official certification page: https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/
   - Link-only reference entry; no local copy included
 
 ### Java
