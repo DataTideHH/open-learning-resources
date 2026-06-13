@@ -1,6 +1,6 @@
 # Open Learning Resources
 
-Curated learning resources for software development, data analysis, Microsoft Data Stack, business intelligence, databases, Java, Linux, containers, Git, networking, C++ and related IT topics.
+Curated learning resources for software development, Python data stack, data analysis, Microsoft Data Stack, business intelligence, databases, Java, Linux, containers, Git, networking, C++ and related IT topics.
 
 This repository contains:
 
@@ -25,6 +25,10 @@ There is no single repository-wide license for all included materials.
 | Git | [Pro Git, Second Edition](resources/git/pro-git/) | PDF | Yes | https://git-scm.com/book/en/v2 | CC BY-NC-SA 3.0 | 2.1.450 / 2026-05-25 |
 | Python | [Official Python 3 Documentation EPUB](resources/python/python-docs/) | EPUB | Yes | https://docs.python.org/3/ | Python Software Foundation License Version 2 | 3.14.5 / 2026-06-09 |
 | Python | [Think Python, 3rd Edition](resources/python/think-python-3e/) | Notebook ZIP | Yes | https://greenteapress.com/wp/think-python-3rd-edition/ | Text: CC BY-NC-SA 4.0 / Code: MIT | 3rd Edition / v3 snapshot |
+| Python Data Stack | [NumPy Documentation](resources/python/numpy-documentation/) | Link/reference | No | https://numpy.org/doc/stable/ | See official NumPy documentation | Dynamic documentation |
+| Python Data Stack | [pandas Documentation](resources/python/pandas-documentation/) | Link/reference | No | https://pandas.pydata.org/docs/ | See official pandas documentation | Dynamic documentation |
+| Python Data Stack | [Matplotlib Documentation](resources/python/matplotlib-documentation/) | Link/reference | No | https://matplotlib.org/stable/users/index.html | See official Matplotlib documentation | Dynamic documentation |
+| Python Data Stack | [scikit-learn User Guide](resources/python/scikit-learn-user-guide/) | Link/reference | No | https://scikit-learn.org/stable/user_guide.html | See official scikit-learn documentation | Dynamic documentation |
 | Statistics / Data Analysis | [Think Stats, 3rd Edition](resources/statistics/think-stats-3e/) | Notebook ZIP | Yes | https://greenteapress.com/wp/think-stats-3e/ | Text: CC BY-NC-SA 4.0 / Code: MIT | 3rd Edition / v3 snapshot |
 | SQL and Databases | [Database Design – 2nd Edition](resources/sql-and-databases/database-design-2nd-edition/) | PDF | Yes | https://opentextbc.ca/dbdesign01/ | CC BY 4.0 | 2nd Edition / 2014 |
 | SQL and Databases | [PostgreSQL 18 Documentation](resources/sql-and-databases/postgresql-18-documentation/) | PDF | Yes | https://www.postgresql.org/docs/ | PostgreSQL License | 18.4 stable release line |
@@ -75,6 +79,38 @@ There is no single repository-wide license for all included materials.
   - Official online version: https://allendowney.github.io/ThinkPython/
   - Official source repository: https://github.com/AllenDowney/ThinkPython
   - Local notebook ZIP included as a non-commercial learning resource
+
+### Python Data Stack
+
+- [NumPy Documentation](resources/python/numpy-documentation/)
+  - Publisher / original source: NumPy Developers
+  - Official documentation: https://numpy.org/doc/stable/
+  - Official user guide: https://numpy.org/doc/stable/user/
+  - Official API reference: https://numpy.org/doc/stable/reference/
+  - Link-only reference entry; no local copy included
+
+- [pandas Documentation](resources/python/pandas-documentation/)
+  - Publisher / original source: pandas project / NumFOCUS
+  - Official documentation: https://pandas.pydata.org/docs/
+  - Official user guide: https://pandas.pydata.org/docs/user_guide/index.html
+  - Official API reference: https://pandas.pydata.org/docs/reference/index.html
+  - Link-only reference entry; no local copy included
+
+- [Matplotlib Documentation](resources/python/matplotlib-documentation/)
+  - Publisher / original source: Matplotlib development team
+  - Official user documentation: https://matplotlib.org/stable/users/index.html
+  - Official tutorials: https://matplotlib.org/stable/tutorials/index.html
+  - Official examples: https://matplotlib.org/stable/gallery/index.html
+  - Official API reference: https://matplotlib.org/stable/api/index.html
+  - Link-only reference entry; no local copy included
+
+- [scikit-learn User Guide](resources/python/scikit-learn-user-guide/)
+  - Publisher / original source: scikit-learn developers
+  - Official user guide: https://scikit-learn.org/stable/user_guide.html
+  - Official getting started guide: https://scikit-learn.org/stable/getting_started.html
+  - Official API reference: https://scikit-learn.org/stable/api/index.html
+  - Official examples: https://scikit-learn.org/stable/auto_examples/index.html
+  - Link-only reference entry; no local copy included
 
 ### Statistics and Data Analysis
 
