@@ -1,6 +1,6 @@
 # Open Learning Resources
 
-Curated learning resources for software development, Python data stack, data analysis, Microsoft Data Stack, business intelligence, databases, Java, Linux, containers, Git, networking, C++ and related IT topics.
+Curated learning resources for software development, Python data stack, API/JSON workflows, OAuth2 concepts, data analysis, Microsoft Data Stack, business intelligence, databases, Java, Linux, containers, Git, networking, C++, local API experimentation and related IT topics.
 
 This repository contains:
 
@@ -29,6 +29,10 @@ There is no single repository-wide license for all included materials.
 | Python Data Stack | [pandas Documentation](resources/python/pandas-documentation/) | Link/reference | No | https://pandas.pydata.org/docs/ | See official pandas documentation | Dynamic documentation |
 | Python Data Stack | [Matplotlib Documentation](resources/python/matplotlib-documentation/) | Link/reference | No | https://matplotlib.org/stable/users/index.html | See official Matplotlib documentation | Dynamic documentation |
 | Python Data Stack | [scikit-learn User Guide](resources/python/scikit-learn-user-guide/) | Link/reference | No | https://scikit-learn.org/stable/user_guide.html | See official scikit-learn documentation | Dynamic documentation |
+| Python API / JSON / OAuth2 | [Python `json` Documentation](resources/python/python-json-documentation/) | Link/reference | No | https://docs.python.org/3/library/json.html | Python Software Foundation documentation | Dynamic documentation |
+| Python API / JSON / OAuth2 | [Python `urllib.request` Documentation](resources/python/python-urllib-request-documentation/) | Link/reference | No | https://docs.python.org/3/library/urllib.request.html | Python Software Foundation documentation | Dynamic documentation |
+| Python API / JSON / OAuth2 | [OAuth 2.0 Authorization Framework – RFC 6749](resources/python/oauth2-rfc-6749/) | Link/reference | No | https://www.rfc-editor.org/info/rfc6749/ | IETF / RFC Editor | Standards reference |
+| Python API / JSON / OAuth2 | [OAuth 2.0 Bearer Token Usage – RFC 6750](resources/python/oauth2-bearer-token-rfc-6750/) | Link/reference | No | https://datatracker.ietf.org/doc/html/rfc6750 | IETF | Standards reference |
 | Statistics / Data Analysis | [Think Stats, 3rd Edition](resources/statistics/think-stats-3e/) | Notebook ZIP | Yes | https://greenteapress.com/wp/think-stats-3e/ | Text: CC BY-NC-SA 4.0 / Code: MIT | 3rd Edition / v3 snapshot |
 | SQL and Databases | [Database Design – 2nd Edition](resources/sql-and-databases/database-design-2nd-edition/) | PDF | Yes | https://opentextbc.ca/dbdesign01/ | CC BY 4.0 | 2nd Edition / 2014 |
 | SQL and Databases | [PostgreSQL 18 Documentation](resources/sql-and-databases/postgresql-18-documentation/) | PDF | Yes | https://www.postgresql.org/docs/ | PostgreSQL License | 18.4 stable release line |
@@ -44,6 +48,7 @@ There is no single repository-wide license for all included materials.
 | Java | [Dev.java – Learn Java](resources/java/dev-java-learn-java/) | Link/reference | No | https://dev.java/learn/ | See official Dev.java site | Dynamic learning resource |
 | Linux | [The Linux Command Line](resources/linux/the-linux-command-line/) | PDF | Yes | https://linuxcommand.org/tlcl.php | CC BY-NC-ND 3.0 | Seventh Internet Edition / TLCL-25.12 |
 | Containers / Dev Environments | [Docker Documentation](resources/containers/docker-documentation/) | Link/reference | No | https://docs.docker.com/ | See official Docker documentation | Dynamic documentation |
+| Local LLMs / Ollama | [Ollama API Documentation](resources/local-llms/ollama-api-documentation/) | Link/reference | No | https://docs.ollama.com/api/introduction | See official Ollama documentation | Dynamic documentation |
 | Networking | [Computer Networking: Principles, Protocols and Practice](resources/networking/computer-networking-principles-protocols-practice/) | Link/reference | No | https://www.computer-networking.info/ | CC BY-SA 3.0 | Third Edition |
 | Networking | [Cisco Catalyst 2950 IOS 12.1EA Reference](resources/networking/cisco-catalyst-2950-ios-12-1ea-reference/) | Link/reference | No | https://www.cisco.com/ | See official Cisco documentation | Legacy lab reference |
 | Networking | [Cisco Catalyst 3560-CX IOS 15.2E Reference](resources/networking/cisco-catalyst-3560cx-ios-15-2e-reference/) | Link/reference | No | https://www.cisco.com/ | See official Cisco documentation | Main Cisco lab reference |
@@ -110,6 +115,32 @@ There is no single repository-wide license for all included materials.
   - Official getting started guide: https://scikit-learn.org/stable/getting_started.html
   - Official API reference: https://scikit-learn.org/stable/api/index.html
   - Official examples: https://scikit-learn.org/stable/auto_examples/index.html
+  - Link-only reference entry; no local copy included
+
+### Python API / JSON / OAuth2
+
+- [Python `json` Documentation](resources/python/python-json-documentation/)
+  - Publisher / original source: Python Software Foundation
+  - Official documentation: https://docs.python.org/3/library/json.html
+  - Standard library reference for JSON encoding and decoding
+  - Link-only reference entry; no local copy included
+
+- [Python `urllib.request` Documentation](resources/python/python-urllib-request-documentation/)
+  - Publisher / original source: Python Software Foundation
+  - Official documentation: https://docs.python.org/3/library/urllib.request.html
+  - Standard library reference for opening URLs and making basic HTTP requests
+  - Link-only reference entry; no local copy included
+
+- [OAuth 2.0 Authorization Framework – RFC 6749](resources/python/oauth2-rfc-6749/)
+  - Publisher / original source: IETF / RFC Editor
+  - RFC information page: https://www.rfc-editor.org/info/rfc6749/
+  - Standards reference for OAuth2 roles, authorization flows and access tokens
+  - Link-only reference entry; no local copy included
+
+- [OAuth 2.0 Bearer Token Usage – RFC 6750](resources/python/oauth2-bearer-token-rfc-6750/)
+  - Publisher / original source: IETF
+  - Official specification: https://datatracker.ietf.org/doc/html/rfc6750
+  - Standards reference for bearer token usage with protected API resources
   - Link-only reference entry; no local copy included
 
 ### Statistics and Data Analysis
@@ -225,6 +256,14 @@ There is no single repository-wide license for all included materials.
   - Docker Desktop license agreement linked for professional usage context
   - Link-only reference entry; no local copy included
 
+### Local LLMs and Ollama
+
+- [Ollama API Documentation](resources/local-llms/ollama-api-documentation/)
+  - Publisher / original source: Ollama
+  - Official API documentation: https://docs.ollama.com/api/introduction
+  - Optional reference for local JSON request/response workflows against a local LLM API
+  - Link-only reference entry; no local copy included
+
 ### Networking
 
 - [Computer Networking: Principles, Protocols and Practice](resources/networking/computer-networking-principles-protocols-practice/)
@@ -288,6 +327,6 @@ SHA-256 checksums for included local files are available here:
 
 ## Repository purpose
 
-This repository documents curated learning resources for software development, data analysis, IT systems and process analysis.
+This repository documents curated learning resources for software development, data analysis, API/JSON workflows, OAuth2 concepts, IT systems and process analysis.
 
 It is not a commercial download mirror.
