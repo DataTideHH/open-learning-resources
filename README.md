@@ -143,6 +143,14 @@ There is no single repository-wide license for all included materials.
   - Standards reference for bearer token usage with protected API resources
   - Link-only reference entry; no local copy included
 
+### Python Web APIs
+
+- [Flask Documentation](resources/python/flask-documentation/)
+  - Publisher / original source: Pallets Projects
+  - Official documentation: https://flask.palletsprojects.com/
+  - Official documentation for Flask, a lightweight Python web framework used for routing, request handling and JSON responses
+  - Link-only reference entry; no local copy included
+
 ### Statistics and Data Analysis
 
 - [Think Stats, 3rd Edition](resources/statistics/think-stats-3e/)
@@ -256,6 +264,14 @@ There is no single repository-wide license for all included materials.
   - Docker Desktop license agreement linked for professional usage context
   - Link-only reference entry; no local copy included
 
+### LLM APIs
+
+- [Anthropic / Claude API Documentation](resources/llm-apis/anthropic-claude-api-documentation/)
+  - Publisher / original source: Anthropic
+  - Official documentation: https://docs.anthropic.com/
+  - Official documentation for Claude API usage, model calls and API integration patterns
+  - Link-only reference entry; no local copy included
+
 ### Local LLMs and Ollama
 
 - [Ollama API Documentation](resources/local-llms/ollama-api-documentation/)
@@ -327,6 +343,6 @@ SHA-256 checksums for included local files are available here:
 
 ## Repository purpose
 
-This repository documents curated learning resources for software development, data analysis, API/JSON workflows, OAuth2 concepts, IT systems and process analysis.
+This repository documents curated learning resources for software development, data analysis, Python web APIs, API/JSON workflows, OAuth2 concepts, LLM API references, IT systems and process analysis.
 
 It is not a commercial download mirror.
