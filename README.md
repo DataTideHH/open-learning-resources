@@ -1,13 +1,13 @@
 # Open Learning Resources
 
-Curated learning resources for software development, Python data stack, API/JSON workflows, OAuth2 concepts, data analysis, Microsoft Data Stack, business intelligence, databases, Java, Linux, containers, Git, networking, C++, local API experimentation and related IT topics.
+Curated learning resources for data and business intelligence, Python, API/JSON workflows, SQL and databases, the Microsoft Data Stack, Java and Spring, build and CI workflows, Linux, containers, Git, networking, C++ and related IT topics.
 
 This repository contains:
 
 - links to freely available learning materials
 - local copies of selected materials only when redistribution is explicitly permitted
-- link-only reference entries for living documents or resources that should not be mirrored locally
-- license and attribution notes for each included third-party resource
+- link-only reference entries for living documentation that should not be mirrored locally
+- license and attribution notes for included third-party resources
 - checksums for included local files
 
 ## Important license note
@@ -18,11 +18,23 @@ Each third-party resource keeps its original license. Nothing in this repository
 
 There is no single repository-wide license for all included materials.
 
+## Selection criteria
+
+Resources are included when they meet at least one of these criteria:
+
+- they are an official or primary documentation source
+- they directly support a current DataTideHH learning or portfolio project
+- they provide a stable standards reference or a clearly licensed open learning resource
+- they fill an identified gap in the current FI-DPA, Data/BI, software-development or IT-foundations learning path
+
+The repository is intentionally curated rather than exhaustive. Dynamic product documentation remains link-only so that readers reach the current official version.
+
 ## Resource overview
 
 | Area | Resource | Format | Local copy | Official source | License | Version / Date |
 |---|---|---:|---:|---|---|---|
 | Git | [Pro Git, Second Edition](resources/git/pro-git/) | PDF | Yes | https://git-scm.com/book/en/v2 | CC BY-NC-SA 3.0 | 2.1.450 / 2026-05-25 |
+| Git / CI | [GitHub Actions Documentation](resources/git/github-actions-documentation/) | Link/reference | No | https://docs.github.com/en/actions | See official GitHub documentation | Dynamic documentation |
 | Python | [Official Python 3 Documentation EPUB](resources/python/python-docs/) | EPUB | Yes | https://docs.python.org/3/ | Python Software Foundation License Version 2 | 3.14.5 / 2026-06-09 |
 | Python | [Think Python, 3rd Edition](resources/python/think-python-3e/) | Notebook ZIP | Yes | https://greenteapress.com/wp/think-python-3rd-edition/ | Text: CC BY-NC-SA 4.0 / Code: MIT | 3rd Edition / v3 snapshot |
 | Python Data Stack | [NumPy Documentation](resources/python/numpy-documentation/) | Link/reference | No | https://numpy.org/doc/stable/ | See official NumPy documentation | Dynamic documentation |
@@ -42,11 +54,15 @@ There is no single repository-wide license for all included materials.
 | Microsoft Data Stack / BI | [Microsoft Fabric Documentation](resources/microsoft/fabric-documentation/) | Link/reference | No | https://learn.microsoft.com/en-us/fabric/ | See official Microsoft Learn documentation | Dynamic documentation |
 | Microsoft Data Stack / BI | [Power BI Documentation](resources/microsoft/power-bi-documentation/) | Link/reference | No | https://learn.microsoft.com/en-us/power-bi/ | See official Microsoft Learn documentation | Dynamic documentation |
 | Microsoft Data Stack / BI | [Power Query Documentation](resources/microsoft/power-query-documentation/) | Link/reference | No | https://learn.microsoft.com/en-us/power-query/ | See official Microsoft Learn documentation | Dynamic documentation |
+| Microsoft Data Stack / BI | [Data Analysis Expressions (DAX) Documentation](resources/microsoft/dax-documentation/) | Link/reference | No | https://learn.microsoft.com/en-us/dax/ | See official Microsoft Learn documentation | Dynamic documentation |
 | Microsoft Data Stack / BI | [Power BI Star Schema Guidance](resources/microsoft/power-bi-star-schema-guidance/) | Link/reference | No | https://learn.microsoft.com/en-us/power-bi/guidance/star-schema | See official Microsoft Learn documentation | Dynamic guidance |
 | Microsoft Data Stack / BI | [Azure Fundamentals / AZ-900](resources/microsoft/azure-fundamentals/) | Link/reference | No | https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/ | See official Microsoft Learn / Credentials page | Dynamic certification page |
-| Java | [JDK 21 Documentation](resources/java/jdk-21-documentation/) | Link/reference | No | https://docs.oracle.com/en/java/javase/21/ | See official Oracle documentation | Java 21 / previous LTS |
-| Java | [JDK 25 Documentation](resources/java/jdk-25-documentation/) | Link/reference | No | https://docs.oracle.com/en/java/javase/25/ | See official Oracle documentation | Java 25 / current LTS |
-| Java | [Dev.java – Learn Java](resources/java/dev-java-learn-java/) | Link/reference | No | https://dev.java/learn/ | See official Dev.java site | Dynamic learning resource |
+| Java / Spring | [JDK 21 Documentation](resources/java/jdk-21-documentation/) | Link/reference | No | https://docs.oracle.com/en/java/javase/21/ | See official Oracle documentation | Java 21 / previous LTS |
+| Java / Spring | [JDK 25 Documentation](resources/java/jdk-25-documentation/) | Link/reference | No | https://docs.oracle.com/en/java/javase/25/ | See official Oracle documentation | Java 25 / current LTS |
+| Java / Spring | [Dev.java – Learn Java](resources/java/dev-java-learn-java/) | Link/reference | No | https://dev.java/learn/ | See official Dev.java site | Dynamic learning resource |
+| Java / Spring | [Spring Boot Documentation](resources/java/spring-boot-documentation/) | Link/reference | No | https://docs.spring.io/spring-boot/ | See official Spring documentation | Dynamic documentation |
+| Java / Spring | [Spring Data JPA Documentation](resources/java/spring-data-jpa-documentation/) | Link/reference | No | https://docs.spring.io/spring-data/jpa/reference/ | See official Spring documentation | Dynamic documentation |
+| Java / Build Tools | [Apache Maven and Maven Wrapper Documentation](resources/java/apache-maven-and-wrapper-documentation/) | Link/reference | No | https://maven.apache.org/guides/ | See official Apache Maven documentation | Dynamic documentation |
 | Linux | [The Linux Command Line](resources/linux/the-linux-command-line/) | PDF | Yes | https://linuxcommand.org/tlcl.php | CC BY-NC-ND 3.0 | Seventh Internet Edition / TLCL-25.12 |
 | Containers / Dev Environments | [Docker Documentation](resources/containers/docker-documentation/) | Link/reference | No | https://docs.docker.com/ | See official Docker documentation | Dynamic documentation |
 | LLM APIs | [Anthropic / Claude API Documentation](resources/llm-apis/anthropic-claude-api-documentation/) | Link/reference | No | https://docs.anthropic.com/ | See official Anthropic documentation | Dynamic documentation |
@@ -61,13 +77,19 @@ There is no single repository-wide license for all included materials.
 
 ## Resources
 
-### Git
+### Git and CI
 
 - [Pro Git, Second Edition](resources/git/pro-git/)
   - Authors: Scott Chacon and Ben Straub
   - License: Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported
   - Official source: https://git-scm.com/book/en/v2
   - Local PDF included as a non-commercial learning resource
+
+- [GitHub Actions Documentation](resources/git/github-actions-documentation/)
+  - Publisher / original source: GitHub
+  - Official documentation: https://docs.github.com/en/actions
+  - Covers workflows, jobs, runners, status checks and CI automation
+  - Link-only reference entry; no local copy included
 
 ### Python
 
@@ -90,59 +112,49 @@ There is no single repository-wide license for all included materials.
 ### Python Data Stack
 
 - [NumPy Documentation](resources/python/numpy-documentation/)
-  - Publisher / original source: NumPy Developers
   - Official documentation: https://numpy.org/doc/stable/
   - Official user guide: https://numpy.org/doc/stable/user/
   - Official API reference: https://numpy.org/doc/stable/reference/
   - Link-only reference entry; no local copy included
 
 - [pandas Documentation](resources/python/pandas-documentation/)
-  - Publisher / original source: pandas project / NumFOCUS
   - Official documentation: https://pandas.pydata.org/docs/
   - Official user guide: https://pandas.pydata.org/docs/user_guide/index.html
   - Official API reference: https://pandas.pydata.org/docs/reference/index.html
   - Link-only reference entry; no local copy included
 
 - [Matplotlib Documentation](resources/python/matplotlib-documentation/)
-  - Publisher / original source: Matplotlib development team
   - Official user documentation: https://matplotlib.org/stable/users/index.html
   - Official tutorials: https://matplotlib.org/stable/tutorials/index.html
   - Official examples: https://matplotlib.org/stable/gallery/index.html
-  - Official API reference: https://matplotlib.org/stable/api/index.html
   - Link-only reference entry; no local copy included
 
 - [scikit-learn User Guide](resources/python/scikit-learn-user-guide/)
-  - Publisher / original source: scikit-learn developers
   - Official user guide: https://scikit-learn.org/stable/user_guide.html
   - Official getting started guide: https://scikit-learn.org/stable/getting_started.html
-  - Official API reference: https://scikit-learn.org/stable/api/index.html
   - Official examples: https://scikit-learn.org/stable/auto_examples/index.html
   - Link-only reference entry; no local copy included
 
 ### Python API / JSON / OAuth2
 
 - [Python `json` Documentation](resources/python/python-json-documentation/)
-  - Publisher / original source: Python Software Foundation
   - Official documentation: https://docs.python.org/3/library/json.html
-  - Standard library reference for JSON encoding and decoding
+  - Standard-library reference for JSON encoding and decoding
   - Link-only reference entry; no local copy included
 
 - [Python `urllib.request` Documentation](resources/python/python-urllib-request-documentation/)
-  - Publisher / original source: Python Software Foundation
   - Official documentation: https://docs.python.org/3/library/urllib.request.html
-  - Standard library reference for opening URLs and making basic HTTP requests
+  - Standard-library reference for basic HTTP requests
   - Link-only reference entry; no local copy included
 
 - [OAuth 2.0 Authorization Framework – RFC 6749](resources/python/oauth2-rfc-6749/)
-  - Publisher / original source: IETF / RFC Editor
   - RFC information page: https://www.rfc-editor.org/info/rfc6749/
-  - Standards reference for OAuth2 roles, authorization flows and access tokens
+  - Standards reference for OAuth2 roles, flows and access tokens
   - Link-only reference entry; no local copy included
 
 - [OAuth 2.0 Bearer Token Usage – RFC 6750](resources/python/oauth2-bearer-token-rfc-6750/)
-  - Publisher / original source: IETF
   - Official specification: https://datatracker.ietf.org/doc/html/rfc6750
-  - Standards reference for bearer token usage with protected API resources
+  - Standards reference for bearer-token usage
   - Link-only reference entry; no local copy included
 
 ### Python Web APIs
@@ -150,192 +162,177 @@ There is no single repository-wide license for all included materials.
 - [Flask Documentation](resources/python/flask-documentation/)
   - Publisher / original source: Pallets Projects
   - Official documentation: https://flask.palletsprojects.com/
-  - Official documentation for Flask, a lightweight Python web framework used for routing, request handling and JSON responses
+  - Supports routing, request handling and JSON-response workflows
   - Link-only reference entry; no local copy included
 
 ### Statistics and Data Analysis
 
 - [Think Stats, 3rd Edition](resources/statistics/think-stats-3e/)
   - Author: Allen B. Downey
-  - Publisher / original book page: Green Tea Press
-  - License: Text under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International; code under MIT License
+  - License: Text under CC BY-NC-SA 4.0; code under MIT License
   - Official source: https://greenteapress.com/wp/think-stats-3e/
   - Official online version: https://allendowney.github.io/ThinkStats/
-  - Official source repository: https://github.com/AllenDowney/ThinkStats
   - Local notebook ZIP included as a non-commercial learning resource
 
 ### SQL and Databases
 
 - [Database Design – 2nd Edition](resources/sql-and-databases/database-design-2nd-edition/)
   - Authors: Adrienne Watt and Nelson Eng
-  - Publisher / original source: BCcampus / B.C. Open Collection
   - License: Creative Commons Attribution 4.0 International
   - Official source: https://opentextbc.ca/dbdesign01/
   - Local PDF included as a freely redistributable learning resource with attribution
 
 - [PostgreSQL 18 Documentation](resources/sql-and-databases/postgresql-18-documentation/)
-  - Publisher / original source: PostgreSQL Global Development Group
+  - Publisher: PostgreSQL Global Development Group
+  - Official documentation: https://www.postgresql.org/docs/18/index.html
   - License: PostgreSQL License
-  - Official documentation page: https://www.postgresql.org/docs/
-  - Official online manual: https://www.postgresql.org/docs/18/index.html
-  - Local PDF included as an official PostgreSQL documentation archive
+  - Local PDF included as an official documentation archive
 
 - [Microsoft SQL and T-SQL Documentation](resources/sql-and-databases/microsoft-sql-t-sql-documentation/)
-  - Publisher / original source: Microsoft Learn / MicrosoftDocs
   - Official Microsoft SQL documentation: https://learn.microsoft.com/en-us/sql/
   - Official T-SQL reference: https://learn.microsoft.com/en-us/sql/t-sql/language-reference
-  - Official source repository: https://github.com/MicrosoftDocs/sql-docs
   - Link-only reference entry; no local copy included
 
 - [MariaDB Server Documentation](resources/sql-and-databases/mariadb-documentation/)
-  - Publisher / original source: MariaDB
   - Official MariaDB Server documentation: https://mariadb.com/docs/server
-  - MariaDB Community Server FAQ: https://mariadb.com/docs/general-resources/community/community/faq/mariadb-community-server
   - Link-only reference entry; no local copy included
 
 ### Microsoft Data Stack and BI
 
 - [Microsoft Fabric Documentation](resources/microsoft/fabric-documentation/)
-  - Publisher / original source: Microsoft Learn / Microsoft
-  - Official Microsoft Fabric documentation: https://learn.microsoft.com/en-us/fabric/
+  - Official documentation: https://learn.microsoft.com/en-us/fabric/
   - Microsoft Fabric overview: https://learn.microsoft.com/en-us/fabric/fundamentals/microsoft-fabric-overview
   - Link-only reference entry; no local copy included
 
 - [Power BI Documentation](resources/microsoft/power-bi-documentation/)
-  - Publisher / original source: Microsoft Learn / Microsoft
-  - Official Power BI documentation: https://learn.microsoft.com/en-us/power-bi/
+  - Official documentation: https://learn.microsoft.com/en-us/power-bi/
   - Power BI overview: https://learn.microsoft.com/en-us/power-bi/fundamentals/power-bi-overview
   - Link-only reference entry; no local copy included
 
 - [Power Query Documentation](resources/microsoft/power-query-documentation/)
-  - Publisher / original source: Microsoft Learn / Microsoft
-  - Official Power Query documentation: https://learn.microsoft.com/en-us/power-query/
+  - Official documentation: https://learn.microsoft.com/en-us/power-query/
+  - Link-only reference entry; no local copy included
+
+- [Data Analysis Expressions (DAX) Documentation](resources/microsoft/dax-documentation/)
+  - Official reference: https://learn.microsoft.com/en-us/dax/
+  - DAX overview: https://learn.microsoft.com/en-us/dax/dax-overview
+  - DAX syntax and function references included as official links
   - Link-only reference entry; no local copy included
 
 - [Power BI Star Schema Guidance](resources/microsoft/power-bi-star-schema-guidance/)
-  - Publisher / original source: Microsoft Learn / Microsoft
   - Official guidance: https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
   - Link-only reference entry; no local copy included
 
 - [Azure Fundamentals / AZ-900](resources/microsoft/azure-fundamentals/)
-  - Publisher / original source: Microsoft Learn / Microsoft Credentials
   - Official certification page: https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/
   - Link-only reference entry; no local copy included
 
-### Java
+### Java and Spring
 
 - [JDK 21 Documentation](resources/java/jdk-21-documentation/)
-  - Publisher / original source: Oracle
-  - Java release context: Java 21 / previous LTS line
   - Official documentation: https://docs.oracle.com/en/java/javase/21/
   - Official API documentation: https://docs.oracle.com/en/java/javase/21/docs/api/index.html
+  - Stable Java 21 LTS baseline used by current projects
   - Link-only reference entry; no local copy included
 
 - [JDK 25 Documentation](resources/java/jdk-25-documentation/)
-  - Publisher / original source: Oracle
-  - Java release context: Java 25 / current LTS line
   - Official documentation: https://docs.oracle.com/en/java/javase/25/
   - Official API documentation: https://docs.oracle.com/en/java/javase/25/docs/api/index.html
+  - Current Java LTS reference line
   - Link-only reference entry; no local copy included
 
 - [Dev.java – Learn Java](resources/java/dev-java-learn-java/)
-  - Publisher / original source: Oracle / Java community site
   - Official learning page: https://dev.java/learn/
-  - Main Dev.java site: https://dev.java/
+  - Practical complement to formal JDK documentation
+  - Link-only reference entry; no local copy included
+
+- [Spring Boot Documentation](resources/java/spring-boot-documentation/)
+  - Official documentation: https://docs.spring.io/spring-boot/
+  - Reference documentation: https://docs.spring.io/spring-boot/reference/
+  - Official guides and Spring Initializr included as links
+  - Supports the `spring-boot-process-api-basics` project
+  - Link-only reference entry; no local copy included
+
+- [Spring Data JPA Documentation](resources/java/spring-data-jpa-documentation/)
+  - Official reference: https://docs.spring.io/spring-data/jpa/reference/
+  - Covers repositories, persistence and query methods
+  - Supports the persistence layer in `spring-boot-process-api-basics`
+  - Link-only reference entry; no local copy included
+
+- [Apache Maven and Maven Wrapper Documentation](resources/java/apache-maven-and-wrapper-documentation/)
+  - Maven documentation: https://maven.apache.org/guides/
+  - Maven Wrapper documentation: https://maven.apache.org/tools/wrapper/
+  - Supports reproducible `mvnw` / `mvnw.cmd` project builds
   - Link-only reference entry; no local copy included
 
 ### Linux
 
 - [The Linux Command Line](resources/linux/the-linux-command-line/)
   - Author: William Shotts
-  - Edition: Seventh Internet Edition
   - License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported
   - Official source: https://linuxcommand.org/tlcl.php
-  - Official download host: https://sourceforge.net/projects/linuxcommand/files/TLCL/25.12/TLCL-25.12.pdf/download
   - Local PDF included as a non-commercial learning resource in its original form
-
 
 ### Containers and Dev Environments
 
 - [Docker Documentation](resources/containers/docker-documentation/)
-  - Publisher / original source: Docker
   - Official documentation: https://docs.docker.com/
   - Docker Engine: https://docs.docker.com/engine/
   - Docker Compose: https://docs.docker.com/compose/
-  - Dockerfile and Compose file references included as official links
-  - Docker Desktop license agreement linked for professional usage context
   - Link-only reference entry; no local copy included
 
 ### LLM APIs
 
 - [Anthropic / Claude API Documentation](resources/llm-apis/anthropic-claude-api-documentation/)
-  - Publisher / original source: Anthropic
   - Official documentation: https://docs.anthropic.com/
-  - Official documentation for Claude API usage, model calls and API integration patterns
+  - Supports model calls, structured output and API-integration workflows
   - Link-only reference entry; no local copy included
 
 ### Local LLMs and Ollama
 
 - [Ollama API Documentation](resources/local-llms/ollama-api-documentation/)
-  - Publisher / original source: Ollama
   - Official API documentation: https://docs.ollama.com/api/introduction
-  - Optional reference for local JSON request/response workflows against a local LLM API
+  - Optional reference for local JSON request/response workflows
   - Link-only reference entry; no local copy included
 
 ### Networking
 
 - [Computer Networking: Principles, Protocols and Practice](resources/networking/computer-networking-principles-protocols-practice/)
   - Author: Olivier Bonaventure
-  - Edition: Third Edition
   - License: Creative Commons Attribution-ShareAlike 3.0 Unported
   - Official online version: https://www.computer-networking.info/
-  - Official source repository: https://github.com/cnp3/ebook
   - Link-only reference entry; no local copy included
 
 - [Cisco Catalyst 2950 IOS 12.1EA Reference](resources/networking/cisco-catalyst-2950-ios-12-1ea-reference/)
-  - Publisher / original source: Cisco
-  - Hardware context: Cisco Catalyst 2950 / 2955 legacy Layer-2 switches
-  - Cisco IOS release family: Cisco IOS Release 12.1(22)EA11 and Later
-  - Official command reference: https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst2950/software/release/12-1_22_ea11x/command/reference/title.html
+  - Official Cisco command reference for a legacy lab platform
   - Link-only reference entry; no local copy included
 
 - [Cisco Catalyst 3560-CX IOS 15.2E Reference](resources/networking/cisco-catalyst-3560cx-ios-15-2e-reference/)
-  - Publisher / original source: Cisco
-  - Hardware context: Cisco Catalyst 3560-CX and 2960-CX switches
-  - Cisco IOS release family: Cisco IOS Release 15.2(7)Ex
-  - Official configuration guide: https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst2960cx_3650cx/software/release/15-2_7_e/configuration_guide/b_1527e_consolidated_3560cx_2960cx_cg.html
-  - Official release notes page: https://www.cisco.com/c/en/us/support/switches/catalyst-3560-cx-series-switches/products-release-notes-list.html
+  - Official configuration guide for the primary physical Cisco lab
   - Link-only reference entry; no local copy included
 
 - [Cisco Networking Academy and Packet Tracer](resources/networking/cisco-networking-academy-packet-tracer/)
-  - Publisher / original source: Cisco
   - Official Cisco Networking Academy: https://www.netacad.com/
   - Official Packet Tracer page: https://www.netacad.com/cisco-packet-tracer
   - Link-only reference entry; no local copy included
 
 - [Core Internet Standards and RFC Editor](resources/networking/core-internet-standards-rfc-editor/)
-  - Publisher / original source: RFC Editor
   - Official RFC Editor site: https://www.rfc-editor.org/
   - Official RFC Index: https://www.rfc-editor.org/rfc-index.html
-  - Link-only reference entry; no local copy included
+  - Link-only standards reference; no local copy included
 
 ### C++
 
 - [Open Data Structures in C++](resources/cpp/open-data-structures-cpp/)
   - Author: Pat Morin
-  - Edition: 0.1Gβ
   - License: Creative Commons Attribution License
   - Official source: https://opendatastructures.org/
-  - Official PDF: https://opendatastructures.org/ods-cpp.pdf
-  - Official source repository: https://github.com/patmorin/ods
   - Local PDF included as a freely redistributable learning resource with attribution
 
 - [C++ Core Guidelines](resources/cpp/cpp-core-guidelines/)
   - Editors: Bjarne Stroustrup and Herb Sutter
-  - Maintainer / original source: Standard C++ Foundation / isocpp
   - Official browsable version: https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
-  - Official source repository: https://github.com/isocpp/CppCoreGuidelines
-  - Link-only reference entry; no local copy included
+  - Living link-only reference; no local copy included
 
 ## Checksums
 
@@ -343,8 +340,12 @@ SHA-256 checksums for included local files are available here:
 
 - [SHA256SUMS.txt](checksums/SHA256SUMS.txt)
 
+Link-only additions do not change the checksum file because no third-party binaries or documents are added locally.
+
 ## Repository purpose
 
-This repository documents curated learning resources for software development, data analysis, Python web APIs, API/JSON workflows, OAuth2 concepts, LLM API references, IT systems and process analysis.
+This repository documents a curated and license-aware learning path across data analysis, Data/BI, Python web APIs, API/JSON workflows, Microsoft tooling, Java/Spring development, build automation, IT systems and networking fundamentals.
 
-It is not a commercial download mirror.
+It is not a commercial download mirror or a general-purpose "awesome list". Resource additions should remain connected to current learning goals, verified project work or stable foundational references.
+
+Last catalog review: 2026-07-26
