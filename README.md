@@ -41,22 +41,29 @@ The repository is intentionally curated rather than exhaustive. Dynamic product 
 | Python Data Stack | [pandas Documentation](resources/python/pandas-documentation/) | Link/reference | No | https://pandas.pydata.org/docs/ | See official pandas documentation | Dynamic documentation |
 | Python Data Stack | [Matplotlib Documentation](resources/python/matplotlib-documentation/) | Link/reference | No | https://matplotlib.org/stable/users/index.html | See official Matplotlib documentation | Dynamic documentation |
 | Python Data Stack | [scikit-learn User Guide](resources/python/scikit-learn-user-guide/) | Link/reference | No | https://scikit-learn.org/stable/user_guide.html | See official scikit-learn documentation | Dynamic documentation |
+| Python Quality / Testing | [pytest Documentation](resources/python/pytest-documentation/) | Link/reference | No | https://docs.pytest.org/en/stable/ | See official pytest documentation | Dynamic documentation |
+| Python Quality / Testing | [Ruff Documentation](resources/python/ruff-documentation/) | Link/reference | No | https://docs.astral.sh/ruff/ | See official Ruff documentation | Dynamic documentation |
 | Python API / JSON / OAuth2 | [Python `json` Documentation](resources/python/python-json-documentation/) | Link/reference | No | https://docs.python.org/3/library/json.html | Python Software Foundation documentation | Dynamic documentation |
 | Python API / JSON / OAuth2 | [Python `urllib.request` Documentation](resources/python/python-urllib-request-documentation/) | Link/reference | No | https://docs.python.org/3/library/urllib.request.html | Python Software Foundation documentation | Dynamic documentation |
 | Python API / JSON / OAuth2 | [OAuth 2.0 Authorization Framework – RFC 6749](resources/python/oauth2-rfc-6749/) | Link/reference | No | https://www.rfc-editor.org/info/rfc6749/ | IETF / RFC Editor | Standards reference |
 | Python API / JSON / OAuth2 | [OAuth 2.0 Bearer Token Usage – RFC 6750](resources/python/oauth2-bearer-token-rfc-6750/) | Link/reference | No | https://datatracker.ietf.org/doc/html/rfc6750 | IETF | Standards reference |
+| API Standards | [OpenAPI Specification 3.1](resources/python/openapi-3-1-specification/) | Link/reference | No | https://spec.openapis.org/oas/v3.1.2.html | Apache License 2.0 | 3.1.2 / 2025-09-19 |
 | Python Web APIs | [Flask Documentation](resources/python/flask-documentation/) | Link/reference | No | https://flask.palletsprojects.com/ | See official Flask documentation | Dynamic documentation |
 | Statistics / Data Analysis | [Think Stats, 3rd Edition](resources/statistics/think-stats-3e/) | Notebook ZIP | Yes | https://greenteapress.com/wp/think-stats-3e/ | Text: CC BY-NC-SA 4.0 / Code: MIT | 3rd Edition / v3 snapshot |
 | SQL and Databases | [Database Design – 2nd Edition](resources/sql-and-databases/database-design-2nd-edition/) | PDF | Yes | https://opentextbc.ca/dbdesign01/ | CC BY 4.0 | 2nd Edition / 2014 |
 | SQL and Databases | [PostgreSQL 18 Documentation](resources/sql-and-databases/postgresql-18-documentation/) | PDF | Yes | https://www.postgresql.org/docs/ | PostgreSQL License | 18.4 stable release line |
 | SQL and Databases | [Microsoft SQL and T-SQL Documentation](resources/sql-and-databases/microsoft-sql-t-sql-documentation/) | Link/reference | No | https://learn.microsoft.com/en-us/sql/ | See official source repository | Dynamic documentation |
 | SQL and Databases | [MariaDB Server Documentation](resources/sql-and-databases/mariadb-documentation/) | Link/reference | No | https://mariadb.com/docs/server | See official site | Dynamic documentation |
+| SQL and Databases | [DuckDB Documentation](resources/sql-and-databases/duckdb-documentation/) | Link/reference | No | https://duckdb.org/docs/stable/ | See official DuckDB documentation | Dynamic documentation |
+| SQL and Databases | [SQLite Documentation](resources/sql-and-databases/sqlite-documentation/) | Link/reference | No | https://www.sqlite.org/docs.html | See official SQLite documentation | Dynamic documentation |
 | Microsoft Data Stack / BI | [Microsoft Fabric Documentation](resources/microsoft/fabric-documentation/) | Link/reference | No | https://learn.microsoft.com/en-us/fabric/ | See official Microsoft Learn documentation | Dynamic documentation |
+| Microsoft Data Stack / BI | [Fabric Medallion Lakehouse Architecture](resources/microsoft/fabric-medallion-architecture/) | Link/reference | No | https://learn.microsoft.com/en-us/fabric/onelake/onelake-medallion-lakehouse-architecture | See official Microsoft Learn documentation | Dynamic guidance |
 | Microsoft Data Stack / BI | [Power BI Documentation](resources/microsoft/power-bi-documentation/) | Link/reference | No | https://learn.microsoft.com/en-us/power-bi/ | See official Microsoft Learn documentation | Dynamic documentation |
 | Microsoft Data Stack / BI | [Power Query Documentation](resources/microsoft/power-query-documentation/) | Link/reference | No | https://learn.microsoft.com/en-us/power-query/ | See official Microsoft Learn documentation | Dynamic documentation |
 | Microsoft Data Stack / BI | [Data Analysis Expressions (DAX) Documentation](resources/microsoft/dax-documentation/) | Link/reference | No | https://learn.microsoft.com/en-us/dax/ | See official Microsoft Learn documentation | Dynamic documentation |
 | Microsoft Data Stack / BI | [Power BI Star Schema Guidance](resources/microsoft/power-bi-star-schema-guidance/) | Link/reference | No | https://learn.microsoft.com/en-us/power-bi/guidance/star-schema | See official Microsoft Learn documentation | Dynamic guidance |
 | Microsoft Data Stack / BI | [Azure Fundamentals / AZ-900](resources/microsoft/azure-fundamentals/) | Link/reference | No | https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/ | See official Microsoft Learn / Credentials page | Dynamic certification page |
+| PowerShell / Automation | [PowerShell Documentation](resources/powershell/powershell-documentation/) | Link/reference | No | https://learn.microsoft.com/en-us/powershell/ | See official Microsoft Learn documentation | Dynamic documentation |
 | Java / Spring | [JDK 21 Documentation](resources/java/jdk-21-documentation/) | Link/reference | No | https://docs.oracle.com/en/java/javase/21/ | See official Oracle documentation | Java 21 / previous LTS |
 | Java / Spring | [JDK 25 Documentation](resources/java/jdk-25-documentation/) | Link/reference | No | https://docs.oracle.com/en/java/javase/25/ | See official Oracle documentation | Java 25 / current LTS |
 | Java / Spring | [Dev.java – Learn Java](resources/java/dev-java-learn-java/) | Link/reference | No | https://dev.java/learn/ | See official Dev.java site | Dynamic learning resource |
@@ -135,6 +142,20 @@ The repository is intentionally curated rather than exhaustive. Dynamic product 
   - Official examples: https://scikit-learn.org/stable/auto_examples/index.html
   - Link-only reference entry; no local copy included
 
+### Python Quality and Testing
+
+- [pytest Documentation](resources/python/pytest-documentation/)
+  - Official documentation: https://docs.pytest.org/en/stable/
+  - Getting started: https://docs.pytest.org/en/stable/getting-started.html
+  - Supports automated contract, reconciliation and edge-case tests
+  - Link-only reference entry; no local copy included
+
+- [Ruff Documentation](resources/python/ruff-documentation/)
+  - Official documentation: https://docs.astral.sh/ruff/
+  - Configuration reference: https://docs.astral.sh/ruff/configuration/
+  - Supports linting and formatter checks through `pyproject.toml`
+  - Link-only reference entry; no local copy included
+
 ### Python API / JSON / OAuth2
 
 - [Python `json` Documentation](resources/python/python-json-documentation/)
@@ -156,6 +177,12 @@ The repository is intentionally curated rather than exhaustive. Dynamic product 
   - Official specification: https://datatracker.ietf.org/doc/html/rfc6750
   - Standards reference for bearer-token usage
   - Link-only reference entry; no local copy included
+
+- [OpenAPI Specification 3.1](resources/python/openapi-3-1-specification/)
+  - Current 3.1 patch specification: https://spec.openapis.org/oas/v3.1.2.html
+  - Language-agnostic contract for HTTP API paths, operations, schemas and security
+  - Published under the Apache License 2.0
+  - Link-only standards reference; no local copy included
 
 ### Python Web APIs
 
@@ -197,11 +224,29 @@ The repository is intentionally curated rather than exhaustive. Dynamic product 
   - Official MariaDB Server documentation: https://mariadb.com/docs/server
   - Link-only reference entry; no local copy included
 
+- [DuckDB Documentation](resources/sql-and-databases/duckdb-documentation/)
+  - Official documentation: https://duckdb.org/docs/stable/
+  - Covers embedded analytical SQL, Parquet workflows and Python integration
+  - Supports the SQL analytics layer in `fabric-service-operations-analytics`
+  - Link-only reference entry; no local copy included
+
+- [SQLite Documentation](resources/sql-and-databases/sqlite-documentation/)
+  - Official documentation index: https://www.sqlite.org/docs.html
+  - SQL language reference: https://www.sqlite.org/lang.html
+  - Supports portable relational persistence and analytical lab workflows
+  - Link-only reference entry; no local copy included
+
 ### Microsoft Data Stack and BI
 
 - [Microsoft Fabric Documentation](resources/microsoft/fabric-documentation/)
   - Official documentation: https://learn.microsoft.com/en-us/fabric/
   - Microsoft Fabric overview: https://learn.microsoft.com/en-us/fabric/fundamentals/microsoft-fabric-overview
+  - Link-only reference entry; no local copy included
+
+- [Fabric Medallion Lakehouse Architecture](resources/microsoft/fabric-medallion-architecture/)
+  - Official guidance: https://learn.microsoft.com/en-us/fabric/onelake/onelake-medallion-lakehouse-architecture
+  - Microsoft Learn module: https://learn.microsoft.com/en-us/training/modules/describe-medallion-architecture/
+  - Covers Bronze, Silver and Gold layer responsibilities in Fabric and OneLake
   - Link-only reference entry; no local copy included
 
 - [Power BI Documentation](resources/microsoft/power-bi-documentation/)
@@ -225,6 +270,14 @@ The repository is intentionally curated rather than exhaustive. Dynamic product 
 
 - [Azure Fundamentals / AZ-900](resources/microsoft/azure-fundamentals/)
   - Official certification page: https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/
+  - Link-only reference entry; no local copy included
+
+### PowerShell and Automation
+
+- [PowerShell Documentation](resources/powershell/powershell-documentation/)
+  - Official documentation: https://learn.microsoft.com/en-us/powershell/
+  - Language specification: https://learn.microsoft.com/en-us/powershell/scripting/lang-spec/chapter-01
+  - Covers cross-platform scripting, object pipelines, quoting and defensive automation
   - Link-only reference entry; no local copy included
 
 ### Java and Spring
@@ -348,4 +401,4 @@ This repository documents a curated and license-aware learning path across data 
 
 It is not a commercial download mirror or a general-purpose "awesome list". Resource additions should remain connected to current learning goals, verified project work or stable foundational references.
 
-Last catalog review: 2026-07-26
+Last catalog review: 2026-07-29
